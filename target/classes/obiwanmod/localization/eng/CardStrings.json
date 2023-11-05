@@ -8,5 +8,36 @@
       "If you need to use it for stuff.",
       "Blizzard is a good example for this."
     ]
+  },
+  "ObiWanMod:StrikeCard": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "ObiWanMod:DefendCard": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Add !B! block.",
+    "UPGRADE_DESCRIPTION": "Add !B! block",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "ObiWanMod:MeditateCard": {
+    "NAME": "Meditate",
+    "DESCRIPTION": "Gain !ObiWanMod:meditate! Strength",
+    "UPGRADE_DESCRIPTION": "Gain !ObiWanMod:meditate! Strength",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
   }
 }
+

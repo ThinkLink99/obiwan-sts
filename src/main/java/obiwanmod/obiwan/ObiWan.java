@@ -9,8 +9,6 @@ import com.badlogic.gdx.math.MathUtils;
 import com.evacipated.cardcrawl.modthespire.lib.SpireEnum;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.blue.Defend_Blue;
-import com.megacrit.cardcrawl.cards.green.Neutralize;
 import com.megacrit.cardcrawl.cards.red.Strike_Red;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -22,6 +20,9 @@ import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
 import com.megacrit.cardcrawl.relics.BurningBlood;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
+import obiwanmod.cards.common.DefendCard;
+import obiwanmod.cards.common.StrikeCard;
+import obiwanmod.cards.uncommon.MeditateCard;
 
 import java.util.ArrayList;
 
@@ -81,11 +82,15 @@ public class ObiWan extends CustomPlayer {
         ArrayList<String> retVal = new ArrayList<>();
         //List of IDs of cards for your starting deck.
         //If you want multiple of the same card, you have to add it multiple times.
-        retVal.add(Strike_Red.ID);
-        retVal.add(Strike_Red.ID);
-        retVal.add(Defend_Blue.ID);
-        retVal.add(Defend_Blue.ID);
-        retVal.add(Neutralize.ID);
+        retVal.add(StrikeCard.ID);
+        retVal.add(StrikeCard.ID);
+        retVal.add(StrikeCard.ID);
+        retVal.add(StrikeCard.ID);
+        retVal.add(DefendCard.ID);
+        retVal.add(DefendCard.ID);
+        retVal.add(DefendCard.ID);
+        retVal.add(DefendCard.ID);
+        retVal.add(MeditateCard.ID);
 
         return retVal;
     }

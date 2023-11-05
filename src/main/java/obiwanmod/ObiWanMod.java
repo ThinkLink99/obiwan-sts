@@ -1,11 +1,10 @@
 package obiwanmod;
 
+import basemod.AutoAdd;
 import basemod.BaseMod;
-import basemod.interfaces.EditCharactersSubscriber;
-import basemod.interfaces.EditKeywordsSubscriber;
-import basemod.interfaces.EditStringsSubscriber;
-import basemod.interfaces.PostInitializeSubscriber;
+import basemod.interfaces.*;
 import com.badlogic.gdx.graphics.Color;
+import obiwanmod.cards.BaseCard;
 import obiwanmod.obiwan.ObiWan;
 import obiwanmod.util.GeneralUtils;
 import obiwanmod.util.KeywordInfo;
@@ -29,6 +28,7 @@ import java.util.*;
 
 @SpireInitializer
 public class ObiWanMod implements
+        EditCardsSubscriber,
         EditCharactersSubscriber,
         EditStringsSubscriber,
         EditKeywordsSubscriber,
@@ -213,5 +213,13 @@ public class ObiWanMod implements
     public void receiveEditCharacters() {
         BaseMod.addCharacter(new ObiWan(),
                 CHAR_SELECT_BUTTON, CHAR_SELECT_PORTRAIT, ObiWan.Enums.OBI_WAN);
+    }
+
+    @Override
+    public void receiveEditCards() { //somewhere in the class
+        new AutoAdd(modID) //Loads files from this mod
+                .packageFilter(BaseCard.class) //In the same package as this class
+                .setDefaultSeen(true) //And marks them as seen in the compendium
+                .cards(); //Adds the cards
     }
 }

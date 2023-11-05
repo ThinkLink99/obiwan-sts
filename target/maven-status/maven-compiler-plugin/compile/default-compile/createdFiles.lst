@@ -4,7 +4,10 @@ obiwanmod\util\CardStats.class
 obiwanmod\util\GeneralUtils.class
 obiwanmod\potions\BasePotion.class
 obiwanmod\obiwan\ObiWan.class
+obiwanmod\cards\common\DefendCard.class
+obiwanmod\cards\uncommon\MeditateCard.class
 obiwanmod\util\TextureLoader$1.class
+obiwanmod\cards\common\StrikeCard.class
 obiwanmod\relics\BaseRelic$1.class
 obiwanmod\util\KeywordInfo.class
 obiwanmod\util\TextureLoader.class
