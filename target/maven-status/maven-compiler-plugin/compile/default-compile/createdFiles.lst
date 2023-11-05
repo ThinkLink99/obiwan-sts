@@ -1,0 +1,17 @@
+obiwanmod\relics\BaseRelic.class
+obiwanmod\powers\BasePower.class
+obiwanmod\util\CardStats.class
+obiwanmod\util\GeneralUtils.class
+obiwanmod\potions\BasePotion.class
+obiwanmod\obiwan\ObiWan.class
+obiwanmod\util\TextureLoader$1.class
+obiwanmod\relics\BaseRelic$1.class
+obiwanmod\util\KeywordInfo.class
+obiwanmod\util\TextureLoader.class
+obiwanmod\cards\BaseCard.class
+obiwanmod\cards\BaseCard$1.class
+obiwanmod\cards\BaseCard$VariableType.class
+obiwanmod\cards\BaseCard$QuickDynamicVariable.class
+obiwanmod\ObiWanMod.class
+obiwanmod\cards\BaseCard$LocalVarInfo.class
+obiwanmod\obiwan\ObiWan$Enums.class

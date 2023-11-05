@@ -1,0 +1,11 @@
+{
+  "modid": "ObiWanMod",
+  "name": "Obi-Wan Kenobi",
+  "author_list": ["ThinkLink99"],
+  "description": "Adds Obi-Wan Kenobi as a playable protaganist",
+  "version": "0.1.0",
+  "sts_version": "12-18-2022",
+  "mts_version": "3.30.0",
+  "dependencies": ["basemod", "stslib"],
+  "update_json": ""
+}
